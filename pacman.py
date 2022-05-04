@@ -28,7 +28,7 @@ class Wall(pygame.sprite.Sprite):
   
         # Make a blue wall, of the size specified in the parameters
         self.image = pygame.Surface([width, height])
-        self.image.fill(color)
+        self.image.fill(blue)
   
         # Make our top-left corner the passed-in location.
         self.rect = self.image.get_rect()
@@ -220,6 +220,9 @@ class Ghost(Player):
         return [turn,steps]
       except IndexError:
          return [0,0]
+    # Ghost ability to double
+      def doubleGhost(self, ghost)
+    # Ghost ability to be killed
 
 Pinky_directions = [
 [0,-30,4],
