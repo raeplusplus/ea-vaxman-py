@@ -1,32 +1,28 @@
-### Pacman in Python with PyGame
+# Vax-Man Game - EA Internship Task
+For my virtual internship with EA game studios, I was assigned to change the logic in Pacman using Python. 
 
-This is a very minimal implementation of the Pacman game, having only one level and without ghosts strategy, not even with random movements (yes, the routes are programmed). However, we may improve this game in the future and everyone else interested can feel free to fork and contribute to this project.
+Original PacMan code found here: https://github.com/hbokmann/Pacman
 
-Download installer from here: https://github.com/hbokmann/Pacman/blob/master/pacman.exe
+## How It's Made:
 
-![Pacman Game Window](https://raw.github.com/hbokmann/Pacman/master/images/pacman.jpg)
+**Tech used:** Python, PyGame
 
+I used the base code for PacMan to understand the Python language, then went in and updated the original rules to the new ones: 
+- Vax-Man can kill a ghost if he comes into contact with it (vaccinates it).
+- Contact with a ghost does not kill Vax-Man.
+- Each ghost that has not yet been hit multiplies itself every 30 seconds (the infection grows).
+- The goal of the game is to collect all the dots before the number of ghosts grows to 32 times the original number.
 
-# Future development
+## Lessons Learned:
 
-* Fix Pacman's movement
-* Ghosts moving algorithm and artificial intelligence
-* Better design
-* Better algorithm for the walls
-* Additional levels?
+This was my first time reading and working with the Python language. I learned the basic syntax and logic needed in the game and made my changes through trial and error. Eventually, with my newfound understanding of Python, Vax-Man was created.
 
+## Examples:
+Take a look at these other examples that I have in my portfolio:
 
-Tested with [PyGame 1.9](http://pygame.org/ftp/pygame-1.9.2a0.win32-py3.2.msi ) and [Python 3.2 32bit](http://www.python.org/ftp/python/3.2.3/python-3.2.3.msi)
+**Yggdrasil:** https://github.com/raeplusplus/Yggdrasil
 
-
-### Additional resources
-* [Pac-Man Dossier - strategy of the ghosts movement](http://home.comcast.net/~jpittman2/pacman/pacmandossier.html)
-* [HTML5 Pacman](http://arandomurl.com/2010/07/25/html5-pacman.html)
-* [PyGame tutorials](http://programarcadegames.com/index.php?lang=en)
-* [How To Write a Pacman Game in JavaScript](http://www.masswerk.at/JavaPac/pacman-howto.html)
-* [Original Pacman game](http://originalpacman.com/)
+**Propeller Internship Task:** https://github.com/raeplusplus/-blackbird-propeller-task-
 
 
 
-### Support or Contact
-Twitter: https://twitter.com/hbokmann
