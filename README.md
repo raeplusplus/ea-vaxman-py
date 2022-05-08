@@ -3,6 +3,8 @@ For my virtual internship with EA game studios, I was assigned to change the log
 
 Original PacMan code found here: https://github.com/hbokmann/Pacman
 
+![](https://github.com/raeplusplus/ea-vaxman-py/blob/main/images/vaxman-gameplay.gif)
+
 ## How It's Made:
 
 **Tech used:** Python, PyGame
